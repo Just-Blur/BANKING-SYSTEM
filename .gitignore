@@ -1,0 +1,4 @@
+out/
+banking.db
+lib/javafx/
+lib/sqlite-jdbc-*.jar

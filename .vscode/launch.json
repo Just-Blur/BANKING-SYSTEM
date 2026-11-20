@@ -1,0 +1,21 @@
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "DBConnection",
+            "request": "launch",
+            "mainClass": "DBConnection",
+            "projectName": "BANKING-SYSTEMFX_4e39eef1",
+            "vmArgs": "-Djava.library.path=\"C:/Users/rchan/Desktop/BANKING SYSTEM/BANKING-SYSTEMFX/auth/x64\""
+        },
+        {
+            "type": "java",
+            "name": "Run Banking System",
+            "request": "launch",
+            "mainClass": "BankingApplication",
+            "vmArgs": "--module-path \"C:/Users/rchan/Downloads/openjfx-26_windows-x64_bin-sdk/javafx-sdk-26/lib\" --add-modules javafx.controls,javafx.fxml -Djava.library.path=\"C:/Users/rchan/Desktop/BANKING SYSTEM/BANKING-SYSTEMFX/auth/x64\""
+        }
+    ]
+}
